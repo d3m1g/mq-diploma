@@ -284,7 +284,8 @@
         <div class="search">
           <span class="visually-hidden">Введите текст запроса</span>
           <form class="lookingfor">
-            <input type="text" placeholder="Найти..." class="field-search" required>
+            <label for="name" class="visually-hidden">Введите текст запроса</label>
+            <input type="text" id="name" name="name" placeholder="Найти..." class="field-search" required>
             <button type="submit" class="search-button">
               <span class="visually-hidden">Нажмите на кнопку, чтобы отправить запрос</span>
             </button>
@@ -297,7 +298,8 @@
           </div>
           <form class="mailing">
             <span class="visually-hidden">Введите адрес Вашей электронной почты</span>
-            <input type="email" class="field-subscribe" placeholder="Ваш email адрес" required>
+            <label for="name" class="visually-hidden">Введите адрес Вашей электронной почты</label>
+            <input type="email" id="name" name="name" class="field-subscribe" placeholder="Ваш email адрес" required>
             <button type="submit" class="sign-button">подписаться</button>
           </form>
         </div>
