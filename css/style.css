@@ -40,7 +40,7 @@
 } */
 
 .item-1 {
-  background: url("/images/banner-bg.jpg");
+  background: url("../images/banner-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
