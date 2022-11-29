@@ -1073,7 +1073,7 @@ footer {
 }
 
 .popup {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   width: 390px;
@@ -1166,4 +1166,3 @@ select {
 .custom-checkbox:checked+label::before {  
   background-image: url("../svg/form-circle.svg");
 }
-
