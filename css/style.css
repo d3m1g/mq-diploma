@@ -5,14 +5,14 @@
 
 @font-face {
   font-family: opensans;
-  src: url(/fonts/OpenSans-Regular.woff);
+  src: url(../fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: opensans;
-  src: url(/fonts/OpenSans-Bold.woff);
+  src: url(../fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
 }
@@ -346,7 +346,7 @@ aside {
   margin-left: 3px;
   background-color: rgb(181, 159, 91);
   cursor: pointer;
-  background-image: url("/svg/search.svg");
+  background-image: url("../svg/search.svg");
   background-position: center center;
   background-size: 18px;
   background-repeat: no-repeat;
@@ -508,15 +508,15 @@ footer {
 }
 
 .icon-link-twitter {
-  background-image: url("/svg/004-twitter.svg");
+  background-image: url("../svg/004-twitter.svg");
 }
 
 .icon-link-printerest {
-  background-image: url("/svg/001-pinterest.svg");
+  background-image: url("../svg/001-pinterest.svg");
 }
 
 .icon-link-tumblr {
-  background-image: url("/svg/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
 }
 
 .social-icon:nth-of-type(n + 2) {
@@ -614,7 +614,7 @@ footer {
 }
 
 .trend1 {
-  background: url(/images/trend1.jpg);
+  background: url(../images/trend1.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -622,21 +622,21 @@ footer {
 }
 
 .trend2 {
-  background: url(/images/trend2.jpg);
+  background: url(../images/trend2.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .trend3 {
-  background: url(/images/trend3.jpg);
+  background: url(../images/trend3.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .trend4 {
-  background: url(/images/trend4.jpg);
+  background: url(../images/trend4.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -765,7 +765,7 @@ footer {
 @media (min-width: 641px) and (max-width: 1199px) {
 
   .item-1 {
-    background: url("/images/banner-bg-tablet.jpg");
+    background: url("../images/banner-bg-tablet.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -895,7 +895,7 @@ footer {
 @media (max-width: 640px) {
 
   .item-1 {
-    background: url("/images/banner-mobile.jpg");
+    background: url("../images/banner-mobile.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1113,7 +1113,7 @@ select {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("/svg/form-arrows.svg");
+  background-image: url("../svg/form-arrows.svg");
   background-size: 0.5rem;
   background-repeat: no-repeat;
   border-style: none;
@@ -1157,13 +1157,13 @@ select {
   height: 1em;
   flex-shrink: 0;
   flex-grow: 0;  
-  background-image: url(/svg/form-empty-circle.svg);
+  background-image: url(../svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
 }
 
 .custom-checkbox:checked+label::before {  
-  background-image: url("/svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 
