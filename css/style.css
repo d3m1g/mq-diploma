@@ -521,10 +521,7 @@ footer {
   color: #b0b0b0;
 }
 
-.item-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.item-2 {  
   margin-top: 58px;
 }
 
@@ -574,7 +571,7 @@ footer {
   text-decoration: underline;
 }
 
-.cardcontent>p {
+.trendsheadings {
   margin-top: 11px;
   text-transform: uppercase;
   font-family: opensans, sans-serif;
@@ -582,7 +579,8 @@ footer {
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-
+  text-decoration: none;
+  color: #eeeeee;
 }
 
 .trend1 {
