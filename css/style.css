@@ -189,8 +189,7 @@ section {
   font-family: opensans, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
-  line-height: 3.33;
+  font-size: 12px;  
   margin-top: 16px;
 }
 
@@ -199,8 +198,7 @@ section {
   font-family: opensans, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 12px;
-  line-height: 3.33;
+  font-size: 12px;  
   margin-left: 16px;
 }
 
@@ -227,8 +225,7 @@ aside {
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
-  text-align: center;
-  height: 27px;
+  text-align: center;  
 
   position: relative;
   z-index: 0;
