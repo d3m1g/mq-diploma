@@ -1073,7 +1073,7 @@ footer {
 }
 
 .popup {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   width: 390px;
