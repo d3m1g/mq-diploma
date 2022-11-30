@@ -729,8 +729,36 @@ footer {
   color: #ffffff;
 }
 
+@media screen and (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
 
-@media screen and (min-width: 641px) and (max-width: 1199px) {
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 5px;
+    padding-bottom: 3px;
+  }
+
+  .card_common_properties {
+    width: 25%;
+  }
+
+  .card_common_properties:nth-of-type(n+3) {
+    margin-top: 24px;
+  }
+
+  .card_common_properties:nth-of-type(even) {
+    margin-left: 0px;
+  }
+
+  .card_common_properties:nth-of-type(n+2) {
+    margin-left: 5px;
+  }
+
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1199px), (max-width: 640px) and (orientation: landscape) {
 
   .item-1 {
     background: url("../images/banner-bg-tablet.jpg");
@@ -857,7 +885,7 @@ footer {
 
 }
 
-@media screen and (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+/* @media screen and (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
 
   .cards {
     display: flex;
@@ -883,7 +911,7 @@ footer {
     margin-left: 5px;
   }
 
-}
+} */
 
 
 @media screen and (max-width: 640px) {
@@ -1049,7 +1077,7 @@ footer {
 
 }
 
-@media screen and (max-width: 640px) and (orientation: landscape) {
+/* @media screen and (max-width: 640px) and (orientation: landscape) {
 
   .cards {
     display: flex;
@@ -1060,7 +1088,7 @@ footer {
     width: calc(50% - 50px);
   }
 
-}
+} */
 
 
 /* POPUP */
