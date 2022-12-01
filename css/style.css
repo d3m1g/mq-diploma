@@ -940,7 +940,24 @@ select:focus {
 
 /* MEDIA */
 
-/* @media (max-width: 1199px) and (orientation: landscape) {
+@media (max-width: 640px) and (orientation: landscape) {
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card_common_properties {
+    width: calc(50% - 50px);
+  }
+  .card_common_properties:nth-of-type(n+3) {
+    margin-top: 24px;
+  }
+  .card_common_properties:nth-of-type(even) {
+    margin-left: 5px;
+  } 
+}
+
+@media (max-width: 1199px) and (orientation: landscape) {
 
   .cards {
     display: flex;
@@ -966,7 +983,7 @@ select:focus {
     margin-left: 5px;
   }
 
-} */
+}
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .item-1 {
@@ -1069,7 +1086,7 @@ select:focus {
   }
 }
 
-@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+/* @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
   .cards {
     display: flex;
     flex-direction: row;
@@ -1089,24 +1106,7 @@ select:focus {
   .card_common_properties:nth-of-type(n+2) {
     margin-left: 5px;
   }
-}
-
-@media (max-width: 640px) and (orientation: landscape) {
-  .cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .card_common_properties {
-    width: calc(50% - 50px);
-  }
-  .card_common_properties:nth-of-type(n+3) {
-    margin-top: 24px;
-  }
-  .card_common_properties:nth-of-type(even) {
-    margin-left: 5px;
-  } 
-}
+} */
 
 @media (max-width: 640px) {
   .item-1 {
