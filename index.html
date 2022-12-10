@@ -13,23 +13,17 @@
   <!-- HEADER   -->
   <header class="flex-item item-1">
 
-    <button type="button" value="menu" class="mobile_burger">
-      <span class="mobile_burgerline"></span>
-      <span class="mobile_burgerline"></span>
-      <span class="mobile_burgerline"></span>
-    </button>
-
-    <div class="mobile_logo">
-      <a href="#0" target="blank" class="mobile-header-logo">
-        <img src="svg/noemi-logo.svg" class="mobile-header-img">
-      </a>
-    </div>
-
-
     <div class="logomenu">
+
       <a href="#0" target="blank" class="header-logo">
-        <img src="svg/noemi-logo.svg" class="header-img">
+        <img src="/svg/noemi-logo.svg" class="header-img" alt="Логотип NOEMI">
       </a>
+
+      <button type="button" value="menu" class="burgermenu">
+        <span class="burgerline"></span>
+        <span class="burgerline"></span>
+        <span class="burgerline"></span>
+      </button>
 
       <nav class="menu">
         <ul class="menu-list">
@@ -40,14 +34,8 @@
           <li class="menu-list-item"><a href="#0" class="menu-item">Темы</a></li>
           <li class="menu-list-item"><a href="#0" class="menu-item">Контакты</a></li>
         </ul>
+      </nav>      
 
-        <button type="button" value="menu" class="burgermenu">
-          <span class="burgerline"></span>
-          <span class="burgerline"></span>
-          <span class="burgerline"></span>
-        </button>
-
-      </nav>
     </div>
     <div class="headertext">
       <h1 class="header-text">блог о творчестве, спорте и образе жизни</h1>
@@ -282,7 +270,8 @@
         <span class="visually-hidden">Введите текст запроса</span>
         <form class="lookingfor">
           <label for="search-button" class="visually-hidden">Введите текст запроса</label>
-          <input type="text" id="search-button" name="search-button" placeholder="Найти..." class="field-search" required>
+          <input type="text" id="search-button" name="search-button" placeholder="Найти..." class="field-search"
+            required>
           <button type="submit" class="search-button">
             <span class="visually-hidden">Нажмите на кнопку, чтобы отправить запрос</span>
           </button>
@@ -296,7 +285,8 @@
         <form class="mailing">
           <span class="visually-hidden">Введите адрес Вашей электронной почты</span>
           <label for="sign-button" class="visually-hidden">Введите адрес Вашей электронной почты</label>
-          <input type="email" id="sign-button" name="sign-button" class="field-subscribe" placeholder="Ваш email адрес" required>
+          <input type="email" id="sign-button" name="sign-button" class="field-subscribe" placeholder="Ваш email адрес"
+            required>
           <button type="submit" class="sign-button">подписаться</button>
         </form>
       </div>
@@ -338,7 +328,7 @@
 
     </aside>
   </div>
-  
+
   <div class="flex-item item-5">
     <div class="aside-headings twofive">
       <h3>НАШИ ИЗДЕЛИЯ</h3>
@@ -456,18 +446,18 @@
 
   <!-- POPUP -->
   <div class="overlay">
-    <div class="popup">
-      
-      <form class="close_btn">
+    <form class="popup">
+
+      <div class="close_btn">
         <label for="cross_style_btn" class="visually-hidden">Закрыть окно</label>
         <button class="cross_style_btn" id="cross_style_btn" type="button"></button>
-      </form>
-
-      <div class="aside-headings popupheading">
-        <p>ВАШ ФИДБЕК</p>
       </div>
 
-      <form class="popupselect">
+      <div class="aside-headings popupheading">
+        <h2>ВАШ ФИДБЕК</h2>
+      </div>
+
+      <div class="popupselect">
         <label for="select">Как часто вы заходите на сайт?</label>
         <select class="select" id="select">
           <option value="">Почти каждый день</option>
@@ -475,9 +465,9 @@
           <option value="">Раз в несколько недель</option>
           <option value="">Несколько раз в год</option>
         </select>
-      </form>
+      </div>
 
-      <form>
+      <div>
         <span>Вы подписаны на e-mail рассылку ?</span>
         <div class="checkbox_style" id="checkbox_style">
           <div class="checkbox_style_yes">
@@ -490,19 +480,19 @@
             <label for="check_no" class="check_cursor">Нет</label>
           </div>
         </div>
-      </form>
+      </div>
 
-      <form class="txtarea">
+      <div class="txtarea">
         <label for="text_field">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
         <textarea class="text_field" id="text_field" placeholder="Может, больше рецептов?"></textarea>
-      </form>
+      </div>
 
-      <form class="mailing popup_btn">
+      <div class="mailing popup_btn">
         <label for="popup_send_button" class="visually-hidden">Нажмите, чтобы отправить</label>
         <button type="submit" class="sign-button popup_send_button" id="popup_send_button">отправить</button>
-      </form>
+      </div>
 
-    </div>
+    </form>
 
   </div>
 
