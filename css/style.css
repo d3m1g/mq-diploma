@@ -779,7 +779,7 @@ footer {
   height: 20px;
   background: transparent;
   border: transparent;  
-  background-image: url(/svg/form-x.svg);  
+  background-image: url(../svg/form-x.svg);  
 }
 
 .cross_style_btn:hover {
