@@ -105,9 +105,8 @@ button [type=submit] {
 
 .headertext {
   text-align: center;
-  width: 679px;
+  max-width: 679px;
   margin: 98px auto 0px auto;
-
 }
 
 .header-text {
@@ -938,8 +937,7 @@ select:focus {
 }
 
 /* MEDIA */
-
-@media (max-width: 1199px) and (orientation: landscape) {
+@media (orientation: landscape) {
 
   .cards {
     display: flex;
@@ -1263,7 +1261,7 @@ select:focus {
   }
 }
 
-/* @media (max-width: 640px) and (orientation: landscape) {  
+@media (max-width: 640px) and (orientation: landscape) {  
 
   .cards {
     display: flex;
@@ -1286,4 +1284,4 @@ select:focus {
     margin-left: 10px;
   }
 
-} */
+}
