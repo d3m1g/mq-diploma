@@ -222,7 +222,7 @@ section {
 
 .item-4 {
   max-width: 272px;
-  margin-left: 120px;
+  margin-left: 120px;  
 }
 
 .aside-headings {
@@ -637,7 +637,7 @@ footer {
 
 .item-5 {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 50px auto 0px auto;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
@@ -754,15 +754,15 @@ footer {
 /* POPUP */
 
 .overlay {
-  display: none;
+  display: flex;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.6);
-  visibility: none;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
 .close_btn {
@@ -790,7 +790,7 @@ footer {
 .txtarea,
 .popup_btn,
 .popupheading {
-  width: 330px;
+ max-width: 330px;
 }
 
 .popup {
@@ -937,7 +937,8 @@ select:focus {
 }
 
 /* MEDIA */
-@media (orientation: landscape) {
+
+@media (max-width: 1199px) and (orientation: landscape) {
 
   .cards {
     display: flex;
@@ -948,9 +949,9 @@ select:focus {
   }
 
   .card_common_properties {
-    width: 25%;
+    width: calc(25% - 45px);
     margin-top: 10px;
-  } 
+  }
 
   .card_common_properties:nth-of-type(n+2) {
     margin-left: 5px;
@@ -1156,7 +1157,7 @@ select:focus {
   }
 
   .twofive {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   .cards {
@@ -1258,10 +1259,23 @@ select:focus {
 
   .pcp:nth-of-type(even) {
     margin-left: 0px;
+  }  
+
+  .popup { 
+    padding: 26px 15px 16px 15px;    
+  }
+
+  .close_btn {
+    margin-top: -50px;
+    margin-right: -10px;
+  }
+
+  .popupheading {
+    margin-top: 30px;
   }
 }
 
-@media (max-width: 640px) and (orientation: landscape) {  
+@media (max-width: 640px) and (orientation: landscape) {
 
   .cards {
     display: flex;
@@ -1270,6 +1284,7 @@ select:focus {
     margin: 0px;
     padding: 0px;
   }
+
   .card_common_properties {
     width: 50%;
   }
@@ -1277,9 +1292,11 @@ select:focus {
   .card_common_properties:nth-of-type(n+2) {
     margin-left: 0px;
   }
+
   .card_common_properties:nth-of-type(n+3) {
     margin-top: 10px;
   }
+
   .card_common_properties:nth-of-type(even) {
     margin-left: 10px;
   }
